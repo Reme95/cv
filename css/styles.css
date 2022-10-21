@@ -1,0 +1,159 @@
+    body{
+        background-color: #FCF8EC;
+        margin: 0;
+        text-align: center;
+        color: #456268;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h1{
+        font-size: 5rem;
+        margin: 50px auto 0 auto;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    h3{
+        color: #79A3B1;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    hr {
+        margin: 50px auto 50px auto;
+        border-color: #456268;
+        border-style: none;
+        border-top-style: dotted;
+        border-width: 5px;
+        width: 10%;
+    }
+
+    p{
+        line-height: 2;
+    }
+
+    a{
+        color: #456268;
+        font-family: 'Roboto', sans-serif;
+        margin: 10px 10px;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: #D0E8F2;
+    }
+
+    .sub-header{
+        font-size: 2.5rem;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .top-container{
+        background-color: #D0E8F2;
+        position: relative;
+        padding-top: 100px;
+        margin: 0;
+    }
+
+    .middle-container{
+        margin: 100px 0;
+    }
+
+    .bottom-container{
+        background-color: #79A3B1;
+        padding: 50px 0 20px;
+    }
+
+    .top-cloud{
+        position: absolute;
+        right: 500px;
+        top: 50px;
+    }
+
+    .bottom-cloud{
+        position: absolute;
+        left: 500px;
+        bottom: 300px;
+    }
+
+    .intro{
+        width: 30%
+        margin: auto;
+    }
+
+    .circular {
+        border-radius: 100%
+    }
+
+    .skill-row{
+        width: 40%;
+        margin: 100px auto 100px auto;
+        text-align: left;
+        line-height: 2;
+    }
+
+    .skill-img {
+        width: 200px;
+        object-fit: scale-down;
+        float: left;
+        padding-right: 30px;
+    }
+
+    .python-img {
+        width: 200px;
+        object-fit: scale-down;
+        float: right;
+        padding-left: 30px;
+    }
+
+    .education-img {
+        width: 200px;
+        object-fit: scale-down;
+    }
+
+    .contact-message{
+        width: 40%;
+        margin: 40px auto 60px auto;
+    }
+
+    .btn {
+        background: #79A3B1;
+        background-image: -webkit-linear-gradient(top, #79A3B1, #456268);
+        background-image: -moz-linear-gradient(top, #79A3B1, #456268);
+        background-image: -ms-linear-gradient(top, #79A3B1, #456268);
+        background-image: -o-linear-gradient(top, #79A3B1, #456268);
+        background-image: linear-gradient(to bottom, #79A3B1, #456268);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        text-shadow: 1px 1px 5px #666666;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background: #D0E8F2;
+        background-image: -webkit-linear-gradient(top, #D0E8F2, #79A3B1);
+        background-image: -moz-linear-gradient(top, #D0E8F2, #79A3B1);
+        background-image: -ms-linear-gradient(top, #D0E8F2, #79A3B1);
+        background-image: -o-linear-gradient(top, #D0E8F2, #79A3B1);
+        background-image: linear-gradient(to bottom, #D0E8F2, #79A3B1);
+        text-decoration: none;
+    }
+
+    .copyright{
+        color: #D0E8F2;
+        font-size: 0.8rem;
+        padding: 20px 0;
+    }
+
+
+#FCF8EC, #D0E8F2 , #79A3B1, #456268
+https://colorhunt.co/palette/fcf8ecd0e8f279a3b1456268
