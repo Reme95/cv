@@ -1,3 +1,7 @@
+    html {
+        scroll-behavior: smooth;
+    }
+
     body{
         background-color: #FCF8EC;
         margin: 0;
@@ -24,7 +28,7 @@
     }
 
     hr {
-        margin: 50px auto 50px auto;
+        margin: 100px auto 50px auto;
         border-color: #456268;
         border-style: none;
         border-top-style: dotted;
@@ -47,6 +51,31 @@
         color: #D0E8F2;
     }
 
+    .navbar {
+        background-color: #79A3B1;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .navbar a {
+        display: inline-block;
+        color: #354c50;
+        text-align: center;
+        padding: 5px 5px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        color: white;
+    }
+    .sub-section{
+        margin-top:50px
+    }
+
     .sub-header{
         font-size: 2.5rem;
         font-family: 'Roboto Slab', serif;
@@ -56,7 +85,7 @@
         background-color: #D0E8F2;
         position: relative;
         padding-top: 100px;
-        margin: 0;
+        margin: 49px auto auto 0;
     }
 
     .middle-container{
@@ -81,22 +110,31 @@
     }
 
     .intro{
-        width: 30%
+        display: block;
+        width: 40%;
         margin: auto;
     }
 
-    .circular {
-        border-radius: 100%
+    .text-link{
+    margin: auto;
+    font-weight:bold;
     }
 
-    .skill-row{
+    .circular {
+        margin-top: 50px;
+        border-radius: 100%;
+        width: 200px;
+        object-fit: scale-down;
+    }
+
+    .body-row{
         width: 40%;
         margin: 100px auto 100px auto;
         text-align: left;
         line-height: 2;
     }
 
-    .skill-img {
+    .cad-img {
         width: 200px;
         object-fit: scale-down;
         float: left;
@@ -110,13 +148,8 @@
         padding-left: 30px;
     }
 
-    .education-img {
-        width: 200px;
-        object-fit: scale-down;
-    }
-
     .contact-message{
-        width: 40%;
+        width: 30%;
         margin: 40px auto 60px auto;
     }
 
@@ -148,6 +181,11 @@
         text-decoration: none;
     }
 
+    .footer-img{
+        width: 50px;
+        object-fit: scale-down;
+    }
+
     .copyright{
         color: #D0E8F2;
         font-size: 0.8rem;
@@ -157,3 +195,6 @@
 
 #FCF8EC, #D0E8F2 , #79A3B1, #456268
 https://colorhunt.co/palette/fcf8ecd0e8f279a3b1456268
+
+#212121, #323232, #0D7377, 14FFEC
+https://colorhunt.co/palette/2121213232320d737714ffec
